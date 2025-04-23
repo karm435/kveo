@@ -2,9 +2,9 @@
 page_title                                : kveo                                        # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
 
 # App Info
-ios_app_id                                : 6744341521                                # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
+ios_app_id                                : 6744858677                                # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
 
-appstore_link                             : https://apps.apple.com/app/id6744341521                                          # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
+appstore_link                             : https://apps.apple.com/app/id6744858677                                          # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
 playstore_link                            :                                           # Enter Google Play Store URL.
 presskit_download_link                    :                                           # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file).
                                                                                       # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
@@ -34,13 +34,17 @@ youtube_username                          :
 # Feature List                            Edit, add or remove features to be presented.
 features                                  :
 
-  - title                                 : Hooks
-    description                           : AI Generated Simplified creation of hooks.
-    fontawesome_icon_name                 : wallet  
+  - title                                 : Video Generation
+    description                           : Create videos from text descriptions/prompts. Support for both landscape (16:9) and portrait (9:16) aspect ratios.Customizable video duration (5-8 seconds)
+    fontawesome_icon_name                 : camera  
 
-  - title                                 : Offline support
-    description                           : Yuo can access your saved hooks in offline mode.
-    fontawesome_icon_name                 : globe
+  - title                                 : Video Management
+    description                           : Save generated videos to device's photo library. Built-in video history with preview capabilities. Share videos directly from the app.
+    fontawesome_icon_name                 : folder
+
+  - title                                 : User Interface
+    description                           : Modern neumorphic design language. Intuitive prompt input system, Easy-to-use aspect ratio selector.
+    fontawesome_icon_name                 : mobile
 
 faqs                                      :
 
@@ -86,14 +90,6 @@ footer_text_color                         : "#666666"
 
 
 
-
-
-
-
-
-
-
-
 ####################################################
 ### Jekyll Configuration. No need to touch this. ###
 ####################################################
@@ -112,7 +108,7 @@ exclude:
 collections:
   pages:
     output: true
-    permalink: /:path/
+    permalink: /:title/
 
 # Markdown rendering
 markdown: kramdown
