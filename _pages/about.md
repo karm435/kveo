@@ -10,7 +10,7 @@ include_in_header: true
 Karma Academy is an Australian-registered business. It develops apps for Apple technologies. 
 
 ## About KVeo
-Karma Academy owns KVeo, an app which helps users to create hooks for social media. 
+Karma Academy owns KVeo, an app which helps users to create videos from text using AI.
 
 ## Contact
 You can react to support from in app email for any quries and support.
